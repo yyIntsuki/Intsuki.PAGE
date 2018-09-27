@@ -1,3 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://intsuki.netlify.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Intsuki"
+theme = "base"
+# Theme related settings below.
+
+[params]
+  description = "Peter Yuanzong Li"
+  mainIcon = "/img/hugo.png"
