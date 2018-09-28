@@ -70,7 +70,7 @@ and (orientation : portrait)
         height: 70%;
         width: 100%;
         position: relative;
-        background: url(../img/bg.main.jpg) no-repeat;
+        background: url(../img/bg.main-mini.jpg) no-repeat;
         background-size: 100% 100%;
         z-index: 99999;
         background-color: black;
@@ -86,7 +86,7 @@ and (orientation : landscape) {
         height: 70%;
         width: 100%;
         position: relative;
-        background: url(../img/bg.main.jpg) no-repeat;
+        background: url(../img/bg.main-long.jpg) no-repeat;
         background-size: 100% 100%;
         z-index: 99999;
         background-color: black;
