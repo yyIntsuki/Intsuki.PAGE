@@ -8,13 +8,23 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cabin', "Helvetica Neue", "Helvetica", sans-serif;
+    font-family: 'KoHo', sans-serif;
 }
 
 body {
 
     font-family: 'KoHo', sans-serif;
     line-height: 1.6;
+    background: url(../img/bg.main.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
 }
 
 .vert-text {
@@ -41,13 +51,6 @@ body {
     width: 100%;
     min-height: 100%;
     position: relative;
-    background: url(../img/bg.main.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    z-index: 99999;
-    background-color: black;
 }
 
 .logo {
@@ -65,14 +68,13 @@ and (min-device-width : 320px)
 and (max-device-width : 1024px)
 and (orientation : portrait)
 {
-    .header {
+    body {
         display: table;
         height: 70%;
         width: 100%;
         position: relative;
         background: url(../img/bg.main-mini.jpg) no-repeat;
         background-size: 100% 100%;
-        z-index: 99999;
         background-color: black;
     }
 }
@@ -81,14 +83,13 @@ and (orientation : portrait)
 and (min-device-width : 320px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-    .header {
+    body {
         display: table;
         height: 70%;
         width: 100%;
         position: relative;
         background: url(../img/bg.main-long.jpg) no-repeat;
         background-size: 100% 100%;
-        z-index: 99999;
         background-color: black;
     }
 }
