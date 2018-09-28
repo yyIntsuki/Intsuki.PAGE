@@ -14,4 +14,4 @@ theme = "base"
 
 [[params.social]]
     title = "Introduction"
-    url = "/about"
+    url = "intro"
