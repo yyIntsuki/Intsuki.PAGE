@@ -7,3 +7,11 @@ theme = "base"
 [params]
   description = "Peter Yuanzong Li"
   mainIcon = "/img/hugo.png"
+
+[[params.social]]
+    title = "GitHub"
+    url = "https://github.com/yyIntsuki"
+
+[[params.social]]
+    title = "Introduction"
+    url = "/about"
